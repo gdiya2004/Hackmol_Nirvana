@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Messages | Firebase</title>
+    <link rel="stylesheet" href="final_form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="final_18">
+    <div class="container">
+        <form action="" id="contactForm">
+            <div class="alert">Your message sent</div>
+
+            <div class="inputBox">
+                <input type="text" id="name" placeholder="Your name...." />
+            </div>
+
+            <div class="inputBox">
+                <input type="email" id="emailid" placeholder="Your Email....." />
+            </div>
+            <div class="inputBox">
+                <input type="date" id="date"  />
+            </div>
+            <div class="inputBox">
+          
+<select id="timeslots" name="timeslots">
+  <option value="09:00">Choose Time</option>
+  <option value="09:00">9:00am-10:00 am</option>
+  <option value="12:00">10:00am-11:00am</option>
+  <option value="15:00">4:00pm-5:00pm</option>
+  <option value="18:00">5:00pm-6:00pm</option>
+</select>
+</div>
+
+
+            <div class="inputBox">
+                <textarea id="msgContent" cols="30" rows="10" placeholder="Message"></textarea>
+            </div>
+
+            <div class="inputBox">
+                
+                <button type="submit" class="button-53" role="button">Submit</button>
+            </div>
+        </form>
+
+    </div>
+    <div class="booking_cont">
+        <div class="zoom_meeting">
+            <h1>Booking Details:</h1>
+            <p id="session23">Session Fee : </p>
+            <p class="discount"><i class="fa-solid fa-indian-rupee-sign"></i>2500<p id="offer23">(Offer -40%) </p>
+            <p id="rupees"><i class="fa-solid fa-indian-rupee-sign"></i>1000</p>
+            <div class="exiciting23">Exiciting News:
+            <div class="free23">First session :<br> <img src="emojis.jpg" ><span>FREE FREE FREE</span></div>
+            </div>
+            <div class="meeting_details">Meeting Details:</div>
+            <div class="meeting_url">URL:
+                <div class="link23"></div>
+                <div class="img_of_zoom"></div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+    
+    <script src="final_form.js"></script>
+</body>
+
+</html>

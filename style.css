@@ -1,0 +1,215 @@
+
+/* body{
+  background: linear-gradient(225deg,white, #bac5e7);
+} */
+.baani_23{
+  margin-left: 30vh;
+  margin-top: 10vh;
+}
+:root {
+  --primary-clr: rgb(122, 122, 232);
+}
+.bg_0208{
+  background-color: #c0daf3;
+  font-family: "Poppins", sans-serif;
+}
+.heading_23{
+    font-size: 55px;
+    margin-left: 6vh;
+}
+.con_23{
+  font-size: 3vh;
+  margin-left: 2vh;
+  margin-top: 2vh;
+}
+/* diyaa */
+/* #thr2{
+width:100vw;
+height:90vh;
+border:1px solid black;
+}
+.carousel{
+  height:90vh;
+  width:100%;
+  border:1px solid black;
+}
+.carousel .carousel-item{
+  color:black;
+  width:50vh;
+  height:60vh;
+  margin-bottom:5vh;
+  border:1px solid black;
+  display:flex;
+justify-content:center;
+align-items:center;
+background:linear-gradient(to right,#4169e1AA,#82caff99);
+}
+.carousel-item a{
+  color:black;
+  text-align:center;
+} */
+/* diyacl */
+#bg{
+  font-size: 4vh;
+  margin-left: 2vh;
+  margin-top: 5vh;
+
+}
+.con_23 p{
+  font-size: 2.5vh;
+  margin-left: 2vh;
+  margin-top: 3vh;
+}
+.user_div{
+    border: 2px solid transparent;
+    height: 30vh;
+    width: 50%;
+    background: linear-gradient(45deg, skyblue, blue);
+    border-radius: 5px;
+    margin-top: 6.5vh;
+}
+.user_img{
+    background-image: url("user1-removebg-preview.png");
+    background-size: cover;
+    height: 300px;
+    width:500px;
+    /* border-radius: 50%; */
+    position: relative ;
+    top: -32vh;
+    left: 36vh;
+}
+ 
+
+  .dcont_23{
+    height: 680px;
+    width: 30%;
+    /* border:2px solid black; */
+    position: relative;
+    left:130vh;
+    top: -40vh;
+    border-radius: 5px;
+    box-shadow:  0px 0px 55px rgb(239, 222, 222);
+    /* background-color: #; */
+  } 
+  .doctor{
+    height:13vh;
+    width: 88%;
+    border: 2px solid transparent;
+    align-self: center;
+    margin-left: 4vh;
+    margin-top: 2.5vh;
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+    
+  }
+  .name_23{
+    position: relative;
+    left: 2vh;
+    top: 2vh;
+    font-size: 18px;
+  }
+  .special_23{
+    position: relative;
+    left: 2vh;
+    top: 2vh;
+    font-size: 14px;
+
+  }
+  .topdoc_23{
+    margin-top: 2vh;
+    margin-left:4vh;
+    font-size: 35px;
+  }
+  .rating_23{
+    position: relative;
+    top: 4vh;
+    left: 2vh;
+    font-size: 14px;
+  }
+  .timeslot_23{
+    position: relative;
+    left: 15vh;
+    top: 1.5vh;
+    font-size: 14px;
+  }
+  .docimg_23{
+    background-image: url("https://img.freepik.com/premium-photo/healthcare-medical-concept-young-male-doctor-with-stethoscope-hospital_380164-53003.jpg");
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 18vh;
+    top: 2.5vh;
+    scale: 1.3;
+    border-radius: 50%;
+  }
+  .docimg2_23{
+    background-image: url("https://img.freepik.com/premium-photo/medical-concept-indian-beautiful-female-doctor-white-coat-with-stethoscope-waist-up-medical-student-woman-hospital-worker-looking-camera-smiling-studio-blue-background_185696-621.jpg?w=1380");
+    background-size: cover;
+    height: 48px;
+    width: 48px;
+    position: relative;
+    left: 16vh;
+    top: 3vh;
+    scale: 1.3;
+    border-radius: 50%;
+  }
+  .docimg3_23{
+    background-image: url("https://img.freepik.com/premium-photo/woman-white-lab-coat-with-stethoscope-her-neck-stands-with-her-arms-crossed_870833-22.jpg?w=2000");
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 18vh;
+    top: 2.8vh;
+    scale: 1.3;
+    border-radius: 50%;
+  }
+  .docimg4_23{
+    background-image: url("https://img.freepik.com/premium-photo/portrait-doctor-uniform_677403-163.jpg");
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 18vh;
+    top: 2.8vh;
+    scale: 1.3;
+    border-radius: 50%;
+  }
+  .docimg5_23{
+    background-image: url("https://th.bing.com/th/id/OIP.wBv-jh8R3-Ohr1gM-ju8iQHaHa?w=1600&h=1600&rs=1&pid=ImgDetMain");
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 19vh;
+    top: 2.8vh;
+    scale: 1.3;
+    border-radius: 50%;
+
+  }
+  .doc2_23:hover{
+    background-color: #d7ebf5;
+  }
+  .doc1_23:hover{
+    background-color: #d7ebf5;
+  }
+  .doc3_23:hover{
+    background-color: #d7ebf5;
+  }
+  .doc4_23:hover{
+    background-color: #d7ebf5;
+  }
+  .doc5_23:hover{
+    background-color: #d7ebf5;
+  }
+  .see_23{
+    font-size:20px;
+    /* font-weight: bold; */
+    position: relative;
+    left:45vh;
+    top: 2vh;
+    text-decoration: none;
+    color: black;
+  }
