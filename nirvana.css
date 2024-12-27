@@ -5,7 +5,9 @@
 body{
   font-family: "Poppins", sans-serif;
 }
-
+.navbar{
+  float:left;
+}
 #meditationbox{
     display: flex;
     flex-direction: column;
